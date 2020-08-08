@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;1,400;1,600&family=Noto+Serif+SC:wght@400;700&family=Quicksand:wght@300&display=swap');
+
+/* Google fonts
+
+
+Paragraphs and headlines - font-family: 'Crimson Text', serif;
+Chinese characters - font-family: 'Noto Serif SC', serif;
+Site Logo - font-family: 'Quicksand', sans-serif;
+
+*/
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Fonts */
+p, h5, a {
+    font-family: 'Crimson Text', serif;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+}
+
+.logo-fixed-font {
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Navbar styling */
+.nav-padding {
+    padding-top: 10px;
+ }
+ 
+ /* To remove automatic materialize shadows on navbar */
+ .no-shadows {
+    box-shadow: none!important;
+    padding-top: 10px;
+}
+
+.sidenav-trigger .material-icons {
+    font-size: 50px;
+}
+
+/*End of Navbar styling */
+
+
+/* Button styling */
+/* For the button on index site */
+ .element-center {  
+    display: flex;
+    flex-flow: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+ }
+
+ .btn-margin {
+    margin-bottom: 80px;
+}
+
+ .btn-margin a {
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
+
+.btn-next-margin {
+    margin-right: 20px;
+}
+
+/* Comments section */
